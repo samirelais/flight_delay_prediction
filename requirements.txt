@@ -1,0 +1,44 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+tensorflow
+prophet
+matplotlib
+seaborn
+jupyter
+
+flight_delay_prediction/
+├── README.md              # Description complète du projet et de ses objectifs
+├── requirements.txt       # Dépendances (pandas, sklearn, xgboost, etc.)
+├── LICENSE
+├── .gitignore
+├── data/
+│   ├── raw/              # flights.csv, airlines.csv, airports.csv
+│   └── processed/        # Données nettoyées et features engineered
+├── notebooks/
+│   ├── 1.0-exploration.ipynb        # Distribution des retards, patterns, etc.
+│   ├── 2.0-preprocessing.ipynb      # Nettoyage et feature engineering
+│   ├── 3.0-classification.ipynb     # RF, XGBoost, LightGBM, SVM, NN
+│   ├── 4.0-regression.ipynb         # Linear, Ridge/Lasso, GBDT, RF
+│   └── 5.0-timeseries.ipynb        # ARIMA/SARIMA, Prophet, LSTM, VAR
+├── src/
+│   ├── __init__.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── make_dataset.py         # Chargement et fusion des données
+│   │   └── preprocess_data.py      # Nettoyage des données
+│   ├── features/
+│   │   ├── __init__.py
+│   │   └── build_features.py       # Features temporelles/spatiales/historiques
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── train_model.py         # Tous les modèles (classification/régression)
+│   │   └── predict_model.py       # Fonctions de prédiction
+│   └── visualization/
+│       ├── __init__.py
+│       └── visualize.py           # Visualisations pour l'analyse
+└── reports/
+   ├── figures/                   # Graphiques des résultats
+   └── final_report.md           # Rapport final avec tous les résultats
