@@ -66,7 +66,7 @@ flight_delay_prediction/
 4. Consulter les rapports pour les résultats
 
 ## Résultats
-[À compléter après l'analyse]
+[En cours ^^]
 
 
 ## Données
