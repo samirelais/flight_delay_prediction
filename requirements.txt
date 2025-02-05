@@ -7,7 +7,10 @@ tensorflow
 prophet
 matplotlib
 seaborn
+plotly
 jupyter
+
+
 
 flight_delay_prediction/
 ├── README.md              # Description complète du projet et de ses objectifs

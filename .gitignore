@@ -1,0 +1,5 @@
+# Ignore tout dans data/raw sauf les fichiers spécifiques
+data/*
+!data/raw/
+!data/raw/airlines.csv
+!data/raw/airports.csv
