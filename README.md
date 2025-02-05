@@ -84,38 +84,50 @@ Pour obtenir les données :
 
 - Variables temporelles :
 
-YEAR, MONTH, DAY : Date du vol
-DAY_OF_WEEK : Jour de la semaine
-SCHEDULED_DEPARTURE, DEPARTURE_TIME : Heures de départ
-SCHEDULED_ARRIVAL, ARRIVAL_TIME : Heures d'arrivée
+   YEAR, MONTH, DAY : Date du vol
+
+   DAY_OF_WEEK : Jour de la semaine
+
+   SCHEDULED_DEPARTURE, DEPARTURE_TIME : Heures de départ
+
+   SCHEDULED_ARRIVAL, ARRIVAL_TIME : Heures d'arrivée
 
 
 - Variables de retard :
 
-DEPARTURE_DELAY : Retard au départ en minutes
-ARRIVAL_DELAY : Retard à l'arrivée en minutes
-LATE_AIRCRAFT_DELAY, WEATHER_DELAY, etc. : Causes des retards
+   DEPARTURE_DELAY : Retard au départ en minutes
+
+   ARRIVAL_DELAY : Retard à l'arrivée en minutes
+
+   LATE_AIRCRAFT_DELAY, WEATHER_DELAY, etc. : Causes des retards
 
 
 - Variables de vol :
 
-FLIGHT_NUMBER : Numéro du vol
-AIRLINE : Code de la compagnie aérienne
-ORIGIN_AIRPORT, DESTINATION_AIRPORT : Codes des aéroports
-DISTANCE : Distance en miles
+   FLIGHT_NUMBER : Numéro du vol
+
+   AIRLINE : Code de la compagnie aérienne
+
+   ORIGIN_AIRPORT, DESTINATION_AIRPORT : Codes des aéroports
+
+   DISTANCE : Distance en miles
 
 
 ### airlines.csv (informations compagnies) :
 
-IATA_CODE : Code unique de la compagnie (ex: AA, UA)
-AIRLINE : Nom complet de la compagnie
+   IATA_CODE : Code unique de la compagnie (ex: AA, UA)
+
+   AIRLINE : Nom complet de la compagnie
 
 ### airports.csv (informations aéroports) :
 
-IATA_CODE : Code unique de l'aéroport (ex: LAX, JFK)
-AIRPORT : Nom de l'aéroport
-CITY, STATE : Localisation
-LATITUDE, LONGITUDE : Coordonnées géographiques
+   IATA_CODE : Code unique de l'aéroport (ex: LAX, JFK)
+
+   AIRPORT : Nom de l'aéroport
+
+   CITY, STATE : Localisation
+
+   LATITUDE, LONGITUDE : Coordonnées géographiques
 
 
 ## Contact
