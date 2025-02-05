@@ -129,7 +129,10 @@ Pour obtenir les données :
 
       LATITUDE, LONGITUDE : Coordonnées géographiques
 
+### Relations entre les fichiers :
+      flights.csv (AIRLINE) ←→ airlines.csv (IATA_CODE)
 
+      flights.csv (ORIGIN_AIRPORT/DESTINATION_AIRPORT) ←→ airports.csv (IATA_CODE)
 ## Contact
 - **Nom** : Samir EL AISSAOUY
 - **Email** : elaissaouy.samir12@gmail.com
