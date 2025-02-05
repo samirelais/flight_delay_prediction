@@ -82,36 +82,60 @@ Pour obtenir les données :
 
 ### flights.csv (données principales des vols) :
 
-- Variables temporelles :
-
-      YEAR, MONTH, DAY : Date du vol
-
-      DAY_OF_WEEK : Jour de la semaine
-
-      SCHEDULED_DEPARTURE, DEPARTURE_TIME : Heures de départ
-
-      SCHEDULED_ARRIVAL, ARRIVAL_TIME : Heures d'arrivée
+- Variables d'identification et de temps :
 
 
-- Variables de retard :
-
-      DEPARTURE_DELAY : Retard au départ en minutes
-
-      ARRIVAL_DELAY : Retard à l'arrivée en minutes
-
-      LATE_AIRCRAFT_DELAY, WEATHER_DELAY, etc. : Causes des retards
-
-
-- Variables de vol :
-
+      YEAR : Année du vol
+      MONTH : Mois du vol
+      DAY : Jour du vol
+      DAY_OF_WEEK : Jour de la semaine (1-7)
       FLIGHT_NUMBER : Numéro du vol
+      TAIL_NUMBER : Numéro d'identification de l'avion
 
-      AIRLINE : Code de la compagnie aérienne
 
-      ORIGIN_AIRPORT, DESTINATION_AIRPORT : Codes des aéroports
+- Variables de compagnie et route :
 
+
+      AIRLINE : Code IATA de la compagnie
+      ORIGIN_AIRPORT : Code IATA de l'aéroport de départ
+      DESTINATION_AIRPORT : Code IATA de l'aéroport d'arrivée
       DISTANCE : Distance en miles
 
+
+- Variables d'horaires :
+
+
+      SCHEDULED_DEPARTURE : Heure de départ prévue (format HHMM)
+      DEPARTURE_TIME : Heure de départ réelle (format HHMM)
+      DEPARTURE_DELAY : Retard au départ en minutes
+      TAXI_OUT : Temps de roulage au départ en minutes
+      WHEELS_OFF : Heure de décollage (format HHMM)
+      SCHEDULED_TIME : Durée prévue du vol en minutes
+      ELAPSED_TIME : Durée réelle du vol en minutes
+      AIR_TIME : Temps en vol en minutes
+      WHEELS_ON : Heure d'atterrissage (format HHMM)
+      TAXI_IN : Temps de roulage à l'arrivée en minutes
+      SCHEDULED_ARRIVAL : Heure d'arrivée prévue (format HHMM)
+      ARRIVAL_TIME : Heure d'arrivée réelle (format HHMM)
+      ARRIVAL_DELAY : Retard à l'arrivée en minutes
+
+
+- Variables de retard par cause :
+
+
+      CARRIER_DELAY : Retard dû à la compagnie en minutes
+      WEATHER_DELAY : Retard dû à la météo en minutes
+      NAS_DELAY : Retard dû au système national aérien en minutes
+      SECURITY_DELAY : Retard dû à la sécurité en minutes
+      LATE_AIRCRAFT_DELAY : Retard dû à un retard précédent de l'avion
+
+
+- Variables d'état du vol :
+
+
+      DIVERTED : Vol dérouté (1 = oui, 0 = non)
+      CANCELLED : Vol annulé (1 = oui, 0 = non)
+      CANCELLATION_REASON : Raison de l'annulation (A = compagnie, B = météo, C = NAS, D = sécurité)
 
 ### airlines.csv (informations compagnies) :
 
