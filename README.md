@@ -115,19 +115,19 @@ Pour obtenir les données :
 
 ### airlines.csv (informations compagnies) :
 
-   IATA_CODE : Code unique de la compagnie (ex: AA, UA)
+      IATA_CODE : Code unique de la compagnie (ex: AA, UA)
 
-   AIRLINE : Nom complet de la compagnie
+      AIRLINE : Nom complet de la compagnie
 
 ### airports.csv (informations aéroports) :
 
-   IATA_CODE : Code unique de l'aéroport (ex: LAX, JFK)
+      IATA_CODE : Code unique de l'aéroport (ex: LAX, JFK)
 
-   AIRPORT : Nom de l'aéroport
+      AIRPORT : Nom de l'aéroport
 
-   CITY, STATE : Localisation
+      CITY, STATE : Localisation
 
-   LATITUDE, LONGITUDE : Coordonnées géographiques
+      LATITUDE, LONGITUDE : Coordonnées géographiques
 
 
 ## Contact
